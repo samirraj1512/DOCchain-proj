@@ -1,0 +1,40 @@
+@header-font {
+    font-family: petrona;
+    src: url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@1,300&display=swap');
+}
+
+@header-font-chain {
+    font-family: petrona_bold;
+    src: url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@1,300;1,500&display=swap');
+}
+
+.about-us{
+    background: linear-gradient(135deg, #0B1623, #439E9F, #217974);
+    height: fit-content;
+}
+.about-us .header-left .logo span {
+    font-family: sans-serif;
+    font-weight: 300; /* Light */
+    font-style: italic;
+    font-size: 36px;
+}
+.about-us .header-left .logo span.chain {
+    font-family: sans-serif;
+    font-weight: 600; /* Light */
+    font-style: italic;
+    font-size: 36px;
+}
+.about-us{
+    color: #FFFFEC ;
+    
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1vw;
+    margin-right: 1vw;
+}
+.about-us .about-container p,li{
+    font-size: 28px;
+}

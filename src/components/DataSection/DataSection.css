@@ -1,0 +1,116 @@
+  .data{
+    display: flex;
+  }
+  .data p{
+    text-align: center;
+    width: 100%;
+    font-size: larger;
+  }
+  .data-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+  }
+
+  .parent_data_div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 33%;
+    border-radius: 0.5cm;
+    background-color: #FFFFEC;
+    position: relative;
+    top: 15vh;
+  }
+  
+  .data-card {  
+    border-radius: 10px;
+    /* white-space: nowrap; */
+    width: 94%;
+    padding: 4px; 
+    margin: 10px;
+    margin-top: -15px;
+    /* left: 2%; */
+  }
+  .scroll-container{
+    overflow-y: auto;
+    max-height: 25rem;
+    margin : 0;
+    padding : 0;
+    overflow-x: auto;
+    /* display: none; */
+  }
+
+  .data-field p {
+    margin: 5px;
+    margin-right: 15px;
+  }
+  .data-field{
+    border-top: 1.5px solid #ccc;
+    white-space: nowrap;
+    margin-top: 10px;
+    width: fit-content;
+  }
+  .on-line{
+    display: flex;
+    /* align-items: center; */
+    height: 2.6vh;
+    margin-right: 10px;
+  }
+  .left-line p{
+    text-align: left;
+    width: 10rem;
+  }
+  .right-line p{
+    position: relative;
+    text-align: center;
+    margin-right: 1px;
+  }
+  
+  
+  .data-table {
+    transition: all 0.3s ease-in-out;
+    /* Ensure it's initially visible */
+  }
+  
+  .data-table.collapsed {
+    /* Styles when collapsed (you can set display: none or transform it off-screen) */
+    display: none;
+  }
+
+  .data-field .on-line_buttons-line .right_accept {
+    color: #122631;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px; /* Reduced font size */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* Adjusted line-height */
+    display: inline-flex;
+    padding: 6px 10px; /* Adjusted padding for a smaller button */
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    border-radius: 12px; /* Reduced border-radius */
+    background: #36ba01;
+    margin: 8px; /* Adjusted margin */
+   }
+
+  .data-field .on-line_buttons-line .right_decline {
+    color: #122631;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px; /* Reduced font size */
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* Adjusted line-height */
+    display: inline-flex;
+    padding: 6px 10px; /* Adjusted padding for a smaller button */
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    border-radius: 12px; /* Reduced border-radius */
+    background: #e5402e;
+    margin: 8px; /* Adjusted margin */
+ }

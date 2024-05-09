@@ -1,0 +1,129 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;  
+    background-color: transparent;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background overlay */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    z-index: 9999;
+    backdrop-filter: blur(10px);
+  }
+  
+  
+  .modalContainer {
+    width: 500px;
+    height: 400px;
+    border-radius: 12px;
+    background-color: #FFFFEC;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background overlay */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+  }
+  .modalContainer .title h1 {
+    margin-top: 0px;
+  }
+  
+  
+  .titleCloseBtn {
+    position : relative;
+    right: -50%;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px 30px 10px 30px;
+    /* margin-right: 10px; */
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  #submitBtn {
+    background-color: greenyellow;
+  }
+  
+    /* Basic styling for form field */
+  .form-field {
+    display: block;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  .form-field input {
+    width: 300px;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Optional: Add focus styles for input field */
+  .form-field input:focus {
+    border-color: #007bff; /* Change to your desired focus color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
+  }
+  
+  /* Optional: Add styling for error state */
+  .form-field.error input {
+    border-color: #ff0000; /* Change to your desired error color */
+  }
+  
+  /* Optional: Style for error message */
+  .form-field .error-message {
+    color: #ff0000; /* Change to your desired error text color */
+    font-size: 14px;
+    margin-top: 5px;
+  }

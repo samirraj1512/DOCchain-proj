@@ -1,0 +1,51 @@
+.parent_footer{
+  background-color: rgba(0, 81, 87, 0.977);
+}
+.footer_container{
+  /* background-color: rgb(52, 66, 61); */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20vw;
+  padding: 2vh;
+  /* align-items: center; */
+}
+
+.developers_1{
+  color: white;
+  align-items: center;
+}
+
+.developers{
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.developers_a,.developers_b{
+  display: flex;
+  flex-direction: column;
+  gap: 1.1vh;
+}
+
+.yo_manas{
+  font-size: 2rem;
+  font-weight: 800;
+  color: goldenrod;
+}
+
+.heading_{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.line{
+  border-top: 4px solid rgb(1, 29, 22);
+  margin-bottom: 3vh;
+  margin-top: 0.5vh;
+}
+
+.names{
+  font-size: larger;
+}

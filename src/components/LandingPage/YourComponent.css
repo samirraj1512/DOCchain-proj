@@ -1,0 +1,99 @@
+@header-font{
+    font-family: petrona;
+    src: url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@1,300&display=swap');
+}
+
+@header-font-chain{
+    font-family: petrona_bold;
+    src: url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@1,300;1,500&display=swap');
+}
+
+
+html, body{
+    height: 100% !important; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: #FFFFEC;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landingPg {
+    height: 100%;
+    background: linear-gradient(135deg, #0B1623, #439E9F, #217974);
+    color: #FFFFEC; /* Set text color to white */
+    padding: 20px; /* Add padding for better readability */
+}
+
+.landingPg1{
+    height: 97vh !important;
+    background: linear-gradient(135deg, #0B1623, #439E9F, #217974);
+    color: #FFFFEC; /* Set text color to white */
+    padding: 20px; /* Add padding for better readability */
+}
+
+.landingPg .header-left .logo span {
+    font-family: Petrona;
+    font-weight: 300; /* Light */
+    font-style: italic;
+    font-size: 36px;
+}
+
+.landingPg .header-left .logo span.chain {
+    font-family: Petrona;
+    font-weight: 600; /* Light */
+    font-style: italic;
+    font-size: 36px;
+}
+  
+.header-right a {
+    color: #fff;
+    margin-right: 35px;
+    text-decoration: none;
+    font-family: Inter;
+    padding-left: 25px;
+    font-weight:500;
+}
+
+.main{
+    font-size:7vw !important;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 30px;
+    margin-left: 2 rem;
+    /* display: flex;
+    align-items: left; */
+}
+
+.button{
+    color: #122631 !important;
+    text-align: center !important;
+    font-family: Poppins !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 400 !important; 
+    line-height: 28px; /* 116.667% */
+    display: inline-flex !important;
+    padding: 20px 34px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    border-radius: 25px !important;
+    background: #FFFFEC !important;
+    margin: 30px !important;
+    box-shadow: 0px 7px 16px 0px rgba(7, 18, 24, 0.18), 0px 29px 29px 0px rgba(7, 18, 24, 0.15), 0px 66px 40px 0px rgba(7, 18, 24, 0.09), 0px 118px 47px 0px rgba(7, 18, 24, 0.03), 0px 184px 52px 0px rgba(7, 18, 24, 0.00) !important;
+}
+
+.frImage{
+    position: absolute;
+    object-fit:contain ;
+    right: 5vw ;
+    top: 16vh;
+    width: 63vw !important;
+    height: 63vh !important;
+
+}

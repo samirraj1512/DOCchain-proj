@@ -1,0 +1,65 @@
+.nav-bar {
+    height: 101px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .nav-bar .line {
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 100px;
+    width: 1440px;
+  }
+  
+  .nav-bar .doc-chain {
+    /* color: #ffffff; */
+    font-family: "Petrona-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 60px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    white-space: nowrap;
+  }
+  
+  .nav-bar .text-wrapper {
+    font-family: "Petrona-Italic", Helvetica;
+    font-style: italic;
+  }
+  
+  .nav-bar .span {
+    font-family: "Petrona-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+  
+  .nav-bar .div {
+    /* color: #ffffec; */
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 1310px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 39px;
+    white-space: nowrap;
+  }
+  
+  .nav-bar .text-wrapper-2 {
+    /* color: #ffffec; */
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 1105px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    white-space: nowrap;
+  }
