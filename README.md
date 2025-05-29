@@ -109,9 +109,6 @@ Some features of these contracts are:-
 # Installation
 
 First git clone it or download the zip
-```bash
-git clone https://github.com/Rashaad10/DocChain.git
-```
 
 ## Installing dependencies
 
